@@ -1,0 +1,7 @@
+#raised to the power
+a=int(input("enter the num: "))
+b=int(input("enter the num: "))
+ans=1
+for i in range(b):
+    ans=ans*a
+print(ans,end=" ")
